@@ -12,7 +12,10 @@ class About extends Component {
 						<Row className="about-top-content">
 							<Col col={6} className="about-img">
 								{/*style={{ backgroundImage: 'url(' + portrait + ')' }}>*/}
-								<img className="portrait-img" src={ portrait } />
+								<img className="portrait-img"
+										 src={ portrait }
+										 alt="Portrait Image"
+								/>
 							</Col>
 							<Col col={6}>
 								<div className="about-info">

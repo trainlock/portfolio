@@ -10,8 +10,6 @@ import menu from './../../images/project-img/siege/tnm094-menuStartQuit.png';
 
 class Siege extends Component {
   render() {
-    let videoPath = './../../videos/tygladig.mp4';
-    
     return (
       <div className="project-body vertical-center">
         <Container className="project-grid">

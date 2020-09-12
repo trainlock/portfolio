@@ -21,7 +21,7 @@ import Windmill from './projects/windmill';
 
 const Main = () => (
 	<Switch>
-		<Route exact path="/" component={ LandingPage } />
+		<Route exact path="/landingpage" component={ LandingPage } />
 		<Route path="/about" component={ About } />
 		<Route path="/portfolio" component={ Portfolio } />
 		<Route path="/projects" component={ Projects } />

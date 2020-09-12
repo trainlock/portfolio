@@ -7,14 +7,11 @@ import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import './index.css';
 import './../node_modules/video-react/dist/video-react.css';
-import { BrowserRouter, Router } from 'react-router-dom';
-import ScrollToTop from "./components/scrollToTop";
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <BrowserRouter>
-    <ScrollToTop>
-		  <App />
-    </ScrollToTop>
+    <App />
   </BrowserRouter>
   , document.getElementById('root'));
 
