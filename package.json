@@ -1,5 +1,5 @@
 {
-  "homepage": ".",
+  "homepage": "https://trainlock.github.io",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +19,8 @@
     "video-react": "^0.14.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
