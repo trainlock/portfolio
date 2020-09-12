@@ -1,26 +1,19 @@
 import React, { Component } from 'react';
-import {Col, Row, Container, Button} from "reactstrap";
-import {Link} from "react-router-dom";
+import { Col, Row, Container } from "reactstrap";
+import { Link } from "react-router-dom";
+import { Player } from 'video-react';
+
+import testImg from './../../images/test.jpg';
 
 class Project extends Component {
   render() {
     return (
       <div className="project-body vertical-center">
         <Container className="project-grid">
-          <div className="project-head">
+          <div className="project-head vertical-center" style={{backgroundImage: 'url(' + testImg + ')'}}>
             <Row>
               <Col col={12}>
                 <h2 className="project-title">Project Name</h2>
-              </Col>
-            </Row>
-            <Row>
-              <Col col={12}>
-                <p>Insert project-related image</p>
-                <img className="portfolio-img"
-                     src="https://png.pngtree.com/svg/20170719/1217a8a69e.png"
-                     alt="projImg"
-                     style={{ height: '250px' }}
-                />
               </Col>
             </Row>
           </div>
@@ -36,17 +29,23 @@ class Project extends Component {
                   felis euismod, aliquam sem at, feugiat augue. Quisque turpis felis, suscipit quis ipsum vitae,
                   consequat ultricies massa.</p>
   
-                <div className="project-button">
-									<span className="button">
-										<Link className="btn-a btn-about" to="/about">Code</Link>
-									</span>
-                </div>
-                
-                <img className="portfolio-img"
-                     src="https://png.pngtree.com/svg/20170719/1217a8a69e.png"
+                <img className="project-img"
+                     src={ testImg }
                      alt="projImg"
-                     style={{ height: '250px' }}
                 />
+                
+                {/*
+                <div className="project-button">
+                  <a href='https://github.com/trainlock'>
+                    <button className="square-btn">Code</button>
+                  </a>
+                </div>
+                */}
+                <div className="project-button">
+                  <a href='https://github.com/trainlock'>
+                    <button className="button type1">Code</button>
+                  </a>
+                </div>
               </Col>
             </Row>
             
@@ -60,18 +59,32 @@ class Project extends Component {
                   Sed lacinia magna sem, sed cursus leo fringilla ut. Proin tincidunt rhoncus massa. Aenean quis
                   felis euismod, aliquam sem at, feugiat augue. Quisque turpis felis, suscipit quis ipsum vitae,
                   consequat ultricies massa.</p>
-                
-                <div className="project-button">
-									<span className="button">
-										<Link className="btn-a btn-about" to="/about">Return to Projects</Link>
-									</span>
-                </div>
-                
-                <img className="portfolio-img"
-                     src="https://png.pngtree.com/svg/20170719/1217a8a69e.png"
+  
+                <img className="project-img"
+                     src={ testImg }
                      alt="projImg"
-                     style={{ height: '250px' }}
                 />
+  
+                {/*
+                <Player
+                  playsInline
+                  poster="/assets/poster.png"
+                  src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                />
+                */}
+  
+                {/*
+                <div className="project-button">
+                  <Link to={"/projects"}>
+                    <button className="square-btn">Return to Projects</button>
+                  </Link>
+                </div>
+                */}
+                <div className="project-button">
+                  <Link to={"/projects"}>
+                    <button className="button type1">Return to Projects</button>
+                  </Link>
+                </div>
               </Col>
             </Row>
           </div>
