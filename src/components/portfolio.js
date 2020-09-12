@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Row, Container, Button } from 'reactstrap';
+import { Col, Row, Container } from 'reactstrap';
 import { Link, Redirect } from 'react-router-dom';
 
 import masterThesis from "./projects/project-img/masterThesis.png";

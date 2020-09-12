@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row, Container } from "reactstrap";
 import { Link } from "react-router-dom";
-import { Player } from 'video-react';
 
 import models from './../../images/project-img/siege/tnm094-models.jpg';
 import game from './../../images/project-img/siege/tnm094-game.png';

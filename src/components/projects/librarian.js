@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row, Container } from "reactstrap";
 import { Link } from "react-router-dom";
-import { Player } from 'video-react';
 
 import astar from './../../images/project-img/tsbk35/tsbk35-astar.png';
 import game from './../../images/project-img/tsbk35/tsbk35-game.png';

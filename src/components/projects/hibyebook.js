@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row, Container } from "reactstrap";
 import { Link } from "react-router-dom";
-import { Player } from 'video-react';
 
 import logo from './../../images/project-img/tnm069/tnm069-logo.png';
 import style from './../../images/project-img/tnm069/tnm069-style.png';

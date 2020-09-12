@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Col, Row, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
-import { FaBeer, FaGithubSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 class Footer extends Component {
 	render() {
