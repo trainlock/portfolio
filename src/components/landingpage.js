@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import AboutMe from './aboutme';
 import Portfolio from './portfolio';
 
-class Landing extends Component {
+class LandingPage extends Component {
 	render() {
 		return (
 			<div className="main-container">
@@ -23,4 +23,4 @@ class Landing extends Component {
 	}
 }
 
-export default Landing;
+export default LandingPage;

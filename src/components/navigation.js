@@ -28,7 +28,7 @@ export class Navigation extends Component {
     return (
       <div className="header-content">
         <Navbar color="light" light expand="md" id="header-layout">
-          <NavbarBrand href="/landingpage">Linnea Bergman</NavbarBrand>
+          <NavbarBrand href="/">Linnea Bergman</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto navbar" navbar>
