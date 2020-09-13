@@ -10,7 +10,10 @@ export default function Card(props) {
           <img className="card-img-container"
                src={require(`${img}`)}
                alt={props.item.name}
-               style={{height: '100%'}}
+               style={{
+                 width: 'auto',
+                 height: '100%',
+               }}
           />
           <div className="card-slide">
             <h3 className="card-title">{ props.item.name } </h3>

@@ -17,7 +17,7 @@ class AboutMe extends Component {
 									alt="portrait"
 								/>
 							</Col>
-							<Col xs="12" lg="6" className="aboutme-text">
+							<Col md="12" lg="6" className="aboutme-text">
 								<div>
 									<h2>Hiya!</h2>
 									<p>

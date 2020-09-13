@@ -32,13 +32,13 @@ class Portfolio extends Component {
 					<div className="portfolio-content">
 						{/* TODO: Byt ut detta mot en map */}
 						<Row className="portfolio-item">
-							<Col col={6} className="portfolio-item-img">
+							<Col md="12" lg="6" className="portfolio-item-img">
 								<img className="portfolio-img"
 									src={ masterThesis }
 									alt="Microstructure deformations on a facial mesh"
 								/>
 							</Col>
-							<Col col={6} className="portfolio-text">
+							<Col md="12" lg="6"className="portfolio-text">
 								<div>
 									<h3>Dynamic Microstructure Deformation</h3>
 									<p>
@@ -63,13 +63,13 @@ class Portfolio extends Component {
 							</Col>
 						</Row>
 						<Row className="portfolio-item">
-							<Col col={6} className="portfolio-item-img">
+							<Col md="12" lg="6" className="portfolio-item-img">
 								<img className="portfolio-img"
 									src={ flubber }
 									alt="Soft body deformer"
 								/>
 							</Col>
-							<Col col={6} className="portfolio-text">
+							<Col md="12" lg="6" className="portfolio-text">
 								<div>
 									<h3>Flubber Deformer</h3>
 									<p>
@@ -93,13 +93,13 @@ class Portfolio extends Component {
 							</Col>
 						</Row>
 						<Row className="portfolio-item">
-							<Col col={6} className="portfolio-item-img">
+							<Col md="12" lg="6" className="portfolio-item-img">
 								<img className="portfolio-img"
 									src={ moa }
 									alt="Decimated cow from modelling and animation lab"
 								/>
 							</Col>
-							<Col col={6} className="portfolio-text">
+							<Col md="12" lg="6" className="portfolio-text">
 								<div>
 									<h3>Modelling and Animation</h3>
 									<p>
