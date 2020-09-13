@@ -14,6 +14,9 @@ import level from './../../images/project-img/tnm079/tnm079-lab5-level.png';
 import fluid from './../../images/project-img/tnm079/tnm079-lab6.png';
 
 class Moa extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">

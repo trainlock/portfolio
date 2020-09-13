@@ -5,7 +5,10 @@ import { Player } from 'video-react';
 
 import game from './../../images/project-img/legionen-the-game/legionenTheGamePlaying.png';
 
-class Project extends Component {
+class Legionen extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">
@@ -97,4 +100,4 @@ class Project extends Component {
   }
 }
 
-export default Project;
+export default Legionen;

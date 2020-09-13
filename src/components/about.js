@@ -4,6 +4,9 @@ import { Col, Container, Row } from "reactstrap";
 import portrait from './../images/linnea-grayscale.jpg';
 
 class About extends Component {
+	componentDidMount() {
+		window.scrollTo(0, 0)
+	}
 	render() {
 		return (
 			<div className="about-body vertical-center">

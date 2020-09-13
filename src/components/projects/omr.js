@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 import omr from '../../images/project-img/omr.png';
 
 class Omr extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">

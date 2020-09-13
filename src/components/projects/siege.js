@@ -9,6 +9,9 @@ import card from './../../images/project-img/siege/tnm094-card.png';
 import menu from './../../images/project-img/siege/tnm094-menuStartQuit.png';
 
 class Siege extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">

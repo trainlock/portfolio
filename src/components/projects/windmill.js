@@ -9,6 +9,9 @@ import mill from './../../images/project-img/tnm088/mill.png';
 import stair from './../../images/project-img/tnm088/stair.png';
 
 class Windmill extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">

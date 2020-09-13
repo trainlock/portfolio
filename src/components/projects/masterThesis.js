@@ -15,6 +15,9 @@ import frown from './../../images/project-img/master-thesis/render-dynamic-1121.
 import fullFace from './../../images/project-img/master-thesis/render-full-face.png';
 
 class MasterThesis extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">

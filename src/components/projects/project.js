@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 import testImg from './../../images/test.jpg';
 
 class Project extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">

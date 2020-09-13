@@ -7,6 +7,9 @@ import game from './../../images/project-img/tsbk35/tsbk35-game.png';
 import path from './../../images/project-img/tsbk35/tsbk35-path.png';
 
 class Librarian extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">
@@ -14,7 +17,7 @@ class Librarian extends Component {
           <div className="project-head vertical-center" style={{backgroundColor: 'rgba(1, 2, 25, 1.0)'}}>
             <Row>
               <Col col={12}>
-                <h2 className="project-title">Project Name</h2>
+                <h2 className="project-title">The Librarian</h2>
               </Col>
             </Row>
           </div>

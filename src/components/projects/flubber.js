@@ -9,6 +9,9 @@ import pos from './../../images/project-img/tncg13/tncg13-pos.png';
 import teapot from './../../images/project-img/tncg13/tncg13-teapot.png';
 
 class Flubber extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">

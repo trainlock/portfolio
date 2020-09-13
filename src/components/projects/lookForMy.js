@@ -6,6 +6,9 @@ import home from './../../images/project-img/look-for-my/LookForMyHomeHover.png'
 import company from './../../images/project-img/look-for-my/LookForMyCompany.png';
 
 class LookForMy extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">

@@ -7,6 +7,9 @@ import style from './../../images/project-img/tnm069/tnm069-style.png';
 import web from './../../images/project-img/tnm069/tnm069-web.png';
 
 class HiByeBook extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">

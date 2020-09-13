@@ -7,6 +7,9 @@ import graph from './../../images/project-img/tnm085/bindningsgraf.png';
 import springs from './../../images/project-img/tnm085/springs.jpg';
 
 class TyglaDig extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="project-body vertical-center">
