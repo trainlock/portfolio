@@ -12,7 +12,7 @@ export default function Card(props) {
                alt={props.item.name}
                style={{
                  width: 'auto',
-                 height: '100%',
+                 height: '100%'
                }}
           />
           <div className="card-slide">
