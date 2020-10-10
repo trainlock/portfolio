@@ -13,14 +13,14 @@ class About extends Component {
 				<Container className="about-grid">
 					<div className="about-head">
 						<Row className="about-top-content">
-							<Col col={6} className="about-img">
+							<Col md="12" lg="6" className="about-img">
 								{/*style={{ backgroundImage: 'url(' + portrait + ')' }}>*/}
 								<img className="portrait-img"
 										 src={ portrait }
 										 alt="Portrait Image"
 								/>
 							</Col>
-							<Col col={6}>
+							<Col md="12" lg="6">
 								<div className="about-info">
 									<h2 className="about-title">About Me</h2>
 									<p className="text-left">My name is Linnea Bergman,

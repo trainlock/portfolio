@@ -38,7 +38,7 @@ class Portfolio extends Component {
 									alt="Microstructure deformations on a facial mesh"
 								/>
 							</Col>
-							<Col md="12" lg="6"className="portfolio-text">
+							<Col md="12" lg="6" className="portfolio-text">
 								<div>
 									<h3>Dynamic Microstructure Deformation</h3>
 									<p>
