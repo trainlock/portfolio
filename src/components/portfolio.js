@@ -3,14 +3,13 @@ import { Col, Row, Container } from 'reactstrap';
 import { Link, Redirect } from 'react-router-dom';
 
 import masterThesis from "./projects/project-img/masterThesis.png";
+import raytracer from "./projects/project-img/raytracer.png";
 import flubber from "./projects/project-img/flubber.png";
-import moa from "./projects/project-img/cow.png";
 
 class Portfolio extends Component {
 	handleClick = () => {
 		return <Redirect to={ "/about" } />
 	}
-	
 	render() {
 		return (
 			<div className="portfolio-body vertical-center">
@@ -65,6 +64,28 @@ class Portfolio extends Component {
 						<Row className="portfolio-item">
 							<Col md="12" lg="6" className="portfolio-item-img">
 								<img className="portfolio-img"
+									src={ raytracer }
+									alt="Monte Carlo ray tracer of a Cornell box."
+								/>
+							</Col>
+							<Col md="12" lg="6" className="portfolio-text">
+								<div>
+									<h3>Monte Carlo Ray Tracer</h3>
+									<p>
+										The course Advanced Global Illumination and Rendering was to create a ray tracer.
+										This was done using both a Monte Carlo ray tracing method and photon mapping. 
+									</p>
+									<div className="portfolio-button">
+										<Link to={"/moa"}>
+											<button className="button type1">Read more</button>
+										</Link>
+									</div>
+								</div>
+							</Col>
+						</Row>
+						<Row className="portfolio-item">
+							<Col md="12" lg="6" className="portfolio-item-img">
+								<img className="portfolio-img"
 									src={ flubber }
 									alt="Soft body deformer"
 								/>
@@ -92,29 +113,6 @@ class Portfolio extends Component {
 								</div>
 							</Col>
 						</Row>
-						<Row className="portfolio-item">
-							<Col md="12" lg="6" className="portfolio-item-img">
-								<img className="portfolio-img"
-									src={ moa }
-									alt="Decimated cow from modelling and animation lab"
-								/>
-							</Col>
-							<Col md="12" lg="6" className="portfolio-text">
-								<div>
-									<h3>Modelling and Animation</h3>
-									<p>
-										The course Modelling and Animation consisted of a series of lab sessions focusing on
-										representing and modifying 3D surfaces. The labs' covered techniques such as mesh
-										decimation, level-set method, splines and subdivision and a physics-based simulation of fluid.
-									</p>
-									<div className="portfolio-button">
-										<Link to={"/moa"}>
-											<button className="button type1">Read more</button>
-										</Link>
-									</div>
-								</div>
-							</Col>
-						</Row>
 						<div className="portfolio-button" id="portfolio-btn-projects">
 							<Link to={"/projects"}>
 								<button className="button type1">See All Projects</button>
@@ -127,7 +125,7 @@ class Portfolio extends Component {
 						*/}
 					</div>
 				</Container>
-			</div>			
+			</div>
 		)
 	}
 }

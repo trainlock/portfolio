@@ -8,6 +8,7 @@ import Projects from './projects';
 
 import Project from './projects/project';
 import MasterThesis from './projects/masterThesis';
+import Raytracer from './projects/raytracer';
 import Moa from './projects/moa';
 import Flubber from './projects/flubber';
 import Librarian from './projects/librarian';
@@ -25,10 +26,10 @@ const Main = () => (
 		<Route path="/about" component={ About } />
 		<Route path="/portfolio" component={ Portfolio } />
 		<Route path="/projects" component={ Projects } />
-		
 		{/* Route to all projects */}
 		<Route path="/project" component={ Project } />
 		<Route path="/master-thesis" component={ MasterThesis } />
+		<Route path="/raytracer" component={ Raytracer } />
 		<Route path="/moa" component={ Moa } />
 		<Route path="/flubber" component={ Flubber } />
 		<Route path="/librarian" component={ Librarian } />

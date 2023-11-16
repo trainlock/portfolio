@@ -52,7 +52,7 @@ class Flubber extends Component {
                 </div>
                 */}
                 <div className="project-button">
-                  <a href='https://github.com/trainlock'>
+                  <a href='https://github.com/trainlock/TNCG13-SoftbodyDeformer'>
                     <button className="button type1">Code</button>
                   </a>
                 </div>

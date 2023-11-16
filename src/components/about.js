@@ -23,19 +23,19 @@ class About extends Component {
 							<Col md="12" lg="6">
 								<div className="about-info">
 									<h2 className="about-title">About Me</h2>
-									<p className="text-left">My name is Linnea Bergman,
-										I’m 24 years old and currently studying MSc in Media Technology and Engineering at
-										Linköping University in Sweden.
-										</p>
-									<p className="text-left">
-										I first came in contact with computer graphics, programming and simulations at the University
-										and got hooked. The mixture of logic and creativity appealed to me and it is something which
-										I have become passionate about. My free time is spent on various projects, either related to
-										the University or of my own accord, where I can be both logical and creative.
+									<p className="text-left">My name is Linnea Bergman, and
+										I am currently working as a Gameplay Programmer after finishing studying
+										MSc in Media Technology and Engineering at Linköping University in Sweden.
 									</p>
 									<p className="text-left">
-										Apart from programming, I am often running in the city or the forest.
-										Discovering new places or technologies is one of the things that inspire me daily.
+										I first came in contact with computer graphics, programming, game development and simulations
+										at the University and got hooked! The mixture of logic and creativity appealed to me, and it
+										is something which I have become passionate about. My free time is usually spent on various projects,
+										such as personal developments or handicrafts, where I can be logical and creative.
+									</p>
+									<p className="text-left">
+										Discovering new places, skills, and technologies are some of the things that inspire me daily.
+										I can often be found running around in the city or nearby forests.
 									</p>
 								</div>
 							</Col>
@@ -50,6 +50,7 @@ class About extends Component {
 							</Row>
 							<Row>
 								<Col col={6} className="about-item text-left">
+									<p>Junior Gameplay Programmer, Ubisoft Annecy</p>
 									<p>Head of Education, Student Council LinTek, Linköping University</p>
 									<p>M.S thesis position / Intern, Goodbye Kansas Studios</p>
 									<p>Teaching Assistant, Linköping University</p>
@@ -58,6 +59,7 @@ class About extends Component {
 									<p>Software Engineering Intern, Westermo</p>
 								</Col>
 								<Col col={6} className="about-year text-right">
+									<p>2022-</p>
 									<p>2020</p>
 									<p>Autumn 2019</p>
 									<p>Autumn 2018</p>

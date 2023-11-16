@@ -10,13 +10,12 @@ class LandingPage extends Component {
 					<div className="container">
 						<div>
 							<h1 id="main-title">Linnea Bergman</h1>
-							<h4 id="subtitle">MSc Media Technology and Engineering - Aspiring Technical Director</h4>
+							<h4 id="subtitle">Gameplay Programmer and Book Enthusiast</h4>
 						</div>
 					</div>
 				</header>
 
 				<AboutMe />
-				
 				<Portfolio />
 			</div>
 		)

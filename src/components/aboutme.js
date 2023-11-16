@@ -21,7 +21,7 @@ class AboutMe extends Component {
 								<div>
 									<h2>Hiya!</h2>
 									<p>
-										What is this page, you may ask? It’s a page where I, and future employers, can keep track
+										What is this page, you may ask? It is a page where I, and future employers, can keep track
 										of what I have done throughout the years. It functions like a descriptive photo album
 										and an extended resumé.
 									</p>
@@ -32,7 +32,6 @@ class AboutMe extends Component {
 										</Link>
 									</div>
 									*/}
-									
 									<div className="aboutme-button">
 										<Link to={"/about"}>
 											<button className="button type1 btn-about">About me</button>

@@ -6,6 +6,12 @@
     "category": "cgi"
   },
   {
+    "name": "Monte Carlo Ray Tracing",
+    "id": "raytracer",
+    "image": "raytracer.png",
+    "category": "cgi"
+  },
+  {
     "name": "Modelling and Animation",
     "id": "moa",
     "image": "cow.png",
